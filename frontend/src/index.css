@@ -1,0 +1,11 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+  @apply bg-gradient-to-l from-indigo-900 to-blue-900;
+}
+.items-center-col {
+  @apply flex flex-col items-center;
+}
